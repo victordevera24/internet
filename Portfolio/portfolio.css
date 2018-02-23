@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.content {
+	font-family:sans-serif;
+}
+.content a {
+	color: black;
+}
+.header {
+	display: block;
+	background-color: white;
+	padding: 15px;
+}
+.header h1,
+.header h2 {
+	display: inline;
+}
+.header h1 {
+	margin-right: 400px;
+}
+.mainContent {
+	width:970px;
+	background: radial-gradient(#6F5964, #6F5964, #4D3942);
+	padding: 15px;
+
+}
+.topRow img {
+	height: 213px;
+	border: 5px solid #ABAAAA;
+	display:inline-block;
+}
+.topRight {
+	display: inline-block;
+	width:500px;
+	background-color: #E5DBE5;
+	vertical-align: top;
+	margin-left: 20px
+
+}
+.topRight p, 
+.topRight a {
+	padding: 10px;
+}
+.topRight h2,
+.middleRow h2,
+.middleRow h3 {
+	/*background-color: #878693;*/
+	background: linear-gradient( #B0B0B4, #878592, #B0B0B4);
+	color: #EFF0F5;
+	padding: 5px;
+}
+.middleRow div {
+	display: inline-block;
+	background-color: #E5DBE5;
+	vertical-align: top;
+	margin-right: 15px;
+	margin-top: 15px;
+
+}
+.middleRow img, 
+.middleRow p {
+	width: 273px;
+}
+.middleRow p {
+	padding: 5px;
+	height: 180px;
+}
+.badge {
+	width: 273px;
+}
+.badge img {
+	margin: 0 0 7px 7px;
+	width: 35px;
+	
+}
+.middleRow button {
+	display: block;
+	margin: auto;
+	vertical-align: top;
+	margin-bottom: 10px;
+	background-color: #427E63;
+	color: white;
+	padding: 5px;
+	border-radius: 8px;
+	box-shadow: 2px 2px 5px grey;
+	border: .5px solid black;
+}
+.footer {
+	text-align: center;
+	margin:10px 0 50px 0px;
+	width: 970px;
+}
+.footer p {
+	margin:0 0 10px 0;
+}
+.footer img {
+	width:15px;
+}
+.footer a {
+	text-decoration: none;
+}
